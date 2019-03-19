@@ -321,6 +321,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://purl.obolibrary.org/obo/UO_0000325"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "megahertz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "MHz"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/isReferencedBy",
@@ -872,7 +878,7 @@
   } ]
 }, {
   "@id" : "http://purl.org/twc/dsa/ns/FlagForReview",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2002/07/owl#DataProperty" ]
 }, {
   "@id" : "http://purl.org/twc/dsa/ns/FrequencyBand",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -1928,61 +1934,115 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Installation"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/JFRL",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Joint Restricted Frequency List"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "JFRL"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/Organization",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Organization"
+  } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/Polygon",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://en.wikipedia.org/wiki/Polygon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Polygon"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/PolygonPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://en.wikipedia.org/wiki/Polygon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PolygonPoint"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/Receiver",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://www.techopedia.com/definition/9123/receiver-rx"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Receiver"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "Rx"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/RefFreq",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "NTIA Sept 2015"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Reference Fequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "RefFreq"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/Station",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Station"
+  } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/TR",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "SME"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TransmitterReceiver"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TR"
   } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/Transmitter",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Transmitter"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "Tx"
+  } ]
 }, {
   "@id" : "http://purl.org/twc/ssrf/terms/Usage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Usage"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "FreqUse"
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/Affiliation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Affiliation"
+  } ]
 }, {
   "@id" : "http://semanticscience.org/resource/Altitude",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
@@ -1994,6 +2054,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://semanticscience.org/resource/SIO_000664"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country"
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/GeographicRegion",
@@ -2009,12 +2072,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://semanticscience.org/resource/SIO_000319"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latitude"
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/Longitude",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://semanticscience.org/resource/SIO_000318"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Longitude "
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/MaximalValue",
@@ -2027,19 +2096,31 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://semanticscience.org/resource/SIO_000926"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Radio Receiver"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "Rx"
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/attributeOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://semanticscience.org/resource/hasAttribute",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000008"
+  } ]
 }, {
   "@id" : "http://semanticscience.org/resource/isPartOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://semanticscience.org/resource/isProperPartOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#DataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#definition",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -2048,18 +2129,32 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/ns/prov#Activity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Activity"
+  } ]
 }, {
   "@id" : "http://www.w3.org/ns/prov#Agent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://www.w3.org/ns/prov#Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Agent"
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/prov#Location",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://www.w3.org/ns/prov#Location\n\n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Location"
+  }, {
+    "@value" : "Location "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "LO"
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/prov#Organization",
@@ -2069,5 +2164,8 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "xacml:Attribute",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tertiary Priority"
+  } ]
 } ]

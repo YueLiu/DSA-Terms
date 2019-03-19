@@ -76,7 +76,9 @@
     <!-- http://semanticscience.org/resource/hasAttribute -->
 
 
-    <ObjectProperty rdf:about="http://semanticscience.org/resource/hasAttribute"/>
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/hasAttribute">
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </ObjectProperty>
     
 
 
@@ -111,6 +113,8 @@
 
     <Class rdf:about="file:///Users/liuyue0027/Desktop/setlr/UO:0000325">
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UO_0000325</rdfs:isDefinedBy>
+        <rdfs:label>megahertz</rdfs:label>
+        <skos:notation>MHz</skos:notation>
     </Class>
     
 
@@ -1688,6 +1692,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/Installation">
         <rdfs:isDefinedBy>https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D</rdfs:isDefinedBy>
+        <rdfs:label>Installation</rdfs:label>
     </Class>
     
 
@@ -1697,6 +1702,8 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/JFRL">
         <rdfs:isDefinedBy>https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D</rdfs:isDefinedBy>
+        <rdfs:label>Joint Restricted Frequency List</rdfs:label>
+        <skos:notation>JFRL</skos:notation>
     </Class>
     
 
@@ -1704,7 +1711,9 @@ radiocommunication signals. (RR)</skos:definition>
     <!-- http://purl.org/twc/ssrf/terms/Organization -->
 
 
-    <Class rdf:about="http://purl.org/twc/ssrf/terms/Organization"/>
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Organization">
+        <rdfs:label>Organization</rdfs:label>
+    </Class>
     
 
 
@@ -1713,6 +1722,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/Polygon">
         <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Polygon</rdfs:isDefinedBy>
+        <rdfs:label>Polygon</rdfs:label>
     </Class>
     
 
@@ -1722,6 +1732,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/PolygonPoint">
         <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Polygon</rdfs:isDefinedBy>
+        <rdfs:label>PolygonPoint</rdfs:label>
     </Class>
     
 
@@ -1731,6 +1742,8 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/Receiver">
         <rdfs:isDefinedBy>https://www.techopedia.com/definition/9123/receiver-rx</rdfs:isDefinedBy>
+        <rdfs:label>Receiver</rdfs:label>
+        <skos:notation>Rx</skos:notation>
     </Class>
     
 
@@ -1740,6 +1753,8 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/RefFreq">
         <rdfs:isDefinedBy>NTIA Sept 2015</rdfs:isDefinedBy>
+        <rdfs:label>Reference Fequency</rdfs:label>
+        <skos:notation>RefFreq</skos:notation>
     </Class>
     
 
@@ -1747,7 +1762,9 @@ radiocommunication signals. (RR)</skos:definition>
     <!-- http://purl.org/twc/ssrf/terms/Station -->
 
 
-    <Class rdf:about="http://purl.org/twc/ssrf/terms/Station"/>
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Station">
+        <rdfs:label>Station</rdfs:label>
+    </Class>
     
 
 
@@ -1756,6 +1773,8 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/TR">
         <rdfs:isDefinedBy>SME</rdfs:isDefinedBy>
+        <rdfs:label>TransmitterReceiver</rdfs:label>
+        <skos:notation>TR</skos:notation>
     </Class>
     
 
@@ -1763,7 +1782,10 @@ radiocommunication signals. (RR)</skos:definition>
     <!-- http://purl.org/twc/ssrf/terms/Transmitter -->
 
 
-    <Class rdf:about="http://purl.org/twc/ssrf/terms/Transmitter"/>
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Transmitter">
+        <rdfs:label>Transmitter</rdfs:label>
+        <skos:notation>Tx</skos:notation>
+    </Class>
     
 
 
@@ -1772,6 +1794,8 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://purl.org/twc/ssrf/terms/Usage">
         <rdfs:isDefinedBy>https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D</rdfs:isDefinedBy>
+        <rdfs:label>Usage</rdfs:label>
+        <skos:notation>FreqUse</skos:notation>
     </Class>
     
 
@@ -1779,7 +1803,9 @@ radiocommunication signals. (RR)</skos:definition>
     <!-- http://semanticscience.org/resource/Affiliation -->
 
 
-    <Class rdf:about="http://semanticscience.org/resource/Affiliation"/>
+    <Class rdf:about="http://semanticscience.org/resource/Affiliation">
+        <rdfs:label>Affiliation</rdfs:label>
+    </Class>
     
 
 
@@ -1802,6 +1828,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://semanticscience.org/resource/Country">
         <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000664</rdfs:isDefinedBy>
+        <rdfs:label>Country</rdfs:label>
     </Class>
     
 
@@ -1832,6 +1859,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://semanticscience.org/resource/Latitude">
         <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000319</rdfs:isDefinedBy>
+        <rdfs:label>Latitude</rdfs:label>
     </Class>
     
 
@@ -1841,6 +1869,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://semanticscience.org/resource/Longitude">
         <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000318</rdfs:isDefinedBy>
+        <rdfs:label>Longitude </rdfs:label>
     </Class>
     
 
@@ -1864,14 +1893,25 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://semanticscience.org/resource/RadioReceiver">
         <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000926</rdfs:isDefinedBy>
+        <rdfs:label>Radio Receiver</rdfs:label>
+        <skos:notation>Rx</skos:notation>
     </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#DataProperty -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#DataProperty"/>
     
 
 
     <!-- http://www.w3.org/ns/prov#Activity -->
 
 
-    <Class rdf:about="http://www.w3.org/ns/prov#Activity"/>
+    <Class rdf:about="http://www.w3.org/ns/prov#Activity">
+        <rdfs:label>Activity</rdfs:label>
+    </Class>
     
 
 
@@ -1880,6 +1920,7 @@ radiocommunication signals. (RR)</skos:definition>
 
     <Class rdf:about="http://www.w3.org/ns/prov#Agent">
         <rdfs:isDefinedBy>http://www.w3.org/ns/prov#Agent</rdfs:isDefinedBy>
+        <rdfs:label>Agent</rdfs:label>
     </Class>
     
 
@@ -1891,6 +1932,9 @@ radiocommunication signals. (RR)</skos:definition>
         <rdfs:isDefinedBy>http://www.w3.org/ns/prov#Location
 
 </rdfs:isDefinedBy>
+        <rdfs:label>Location</rdfs:label>
+        <rdfs:label>Location </rdfs:label>
+        <skos:notation>LO</skos:notation>
     </Class>
     
 
@@ -1912,7 +1956,30 @@ radiocommunication signals. (RR)</skos:definition>
     <!-- xacml:Attribute -->
 
 
-    <Class rdf:about="xacml:Attribute"/>
+    <Class rdf:about="xacml:Attribute">
+        <rdfs:label>Tertiary Priority</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FlagForReview -->
+
+
+    <NamedIndividual rdf:about="http://purl.org/twc/dsa/ns/FlagForReview">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataProperty"/>
+    </NamedIndividual>
 </rdf:RDF>
 
 

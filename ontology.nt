@@ -34,6 +34,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://semanticscience.org/resource/hasAttribute
 <http://semanticscience.org/resource/hasAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://semanticscience.org/resource/SIO_000008> .
 # 
 # http://semanticscience.org/resource/isPartOf
 <http://semanticscience.org/resource/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -53,6 +54,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # file:///Users/liuyue0027/Desktop/setlr/UO:0000325
 <file:///Users/liuyue0027/Desktop/setlr/UO:0000325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <file:///Users/liuyue0027/Desktop/setlr/UO:0000325> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.obolibrary.org/obo/UO_0000325" .
+<file:///Users/liuyue0027/Desktop/setlr/UO:0000325> <http://www.w3.org/2000/01/rdf-schema#label> "megahertz" .
+<file:///Users/liuyue0027/Desktop/setlr/UO:0000325> <http://www.w3.org/2004/02/skos/core#notation> "MHz" .
 # 
 # http://purl.org/twc/dsa/ns/ACTS
 <http://purl.org/twc/dsa/ns/ACTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -966,46 +969,64 @@ _:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/p
 # http://purl.org/twc/ssrf/terms/Installation
 <http://purl.org/twc/ssrf/terms/Installation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/Installation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" .
+<http://purl.org/twc/ssrf/terms/Installation> <http://www.w3.org/2000/01/rdf-schema#label> "Installation" .
 # 
 # http://purl.org/twc/ssrf/terms/JFRL
 <http://purl.org/twc/ssrf/terms/JFRL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/JFRL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" .
+<http://purl.org/twc/ssrf/terms/JFRL> <http://www.w3.org/2000/01/rdf-schema#label> "Joint Restricted Frequency List" .
+<http://purl.org/twc/ssrf/terms/JFRL> <http://www.w3.org/2004/02/skos/core#notation> "JFRL" .
 # 
 # http://purl.org/twc/ssrf/terms/Organization
 <http://purl.org/twc/ssrf/terms/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/twc/ssrf/terms/Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization" .
 # 
 # http://purl.org/twc/ssrf/terms/Polygon
 <http://purl.org/twc/ssrf/terms/Polygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/Polygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://en.wikipedia.org/wiki/Polygon" .
+<http://purl.org/twc/ssrf/terms/Polygon> <http://www.w3.org/2000/01/rdf-schema#label> "Polygon" .
 # 
 # http://purl.org/twc/ssrf/terms/PolygonPoint
 <http://purl.org/twc/ssrf/terms/PolygonPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/PolygonPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://en.wikipedia.org/wiki/Polygon" .
+<http://purl.org/twc/ssrf/terms/PolygonPoint> <http://www.w3.org/2000/01/rdf-schema#label> "PolygonPoint" .
 # 
 # http://purl.org/twc/ssrf/terms/Receiver
 <http://purl.org/twc/ssrf/terms/Receiver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/Receiver> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.techopedia.com/definition/9123/receiver-rx" .
+<http://purl.org/twc/ssrf/terms/Receiver> <http://www.w3.org/2000/01/rdf-schema#label> "Receiver" .
+<http://purl.org/twc/ssrf/terms/Receiver> <http://www.w3.org/2004/02/skos/core#notation> "Rx" .
 # 
 # http://purl.org/twc/ssrf/terms/RefFreq
 <http://purl.org/twc/ssrf/terms/RefFreq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/RefFreq> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "NTIA Sept 2015" .
+<http://purl.org/twc/ssrf/terms/RefFreq> <http://www.w3.org/2000/01/rdf-schema#label> "Reference Fequency" .
+<http://purl.org/twc/ssrf/terms/RefFreq> <http://www.w3.org/2004/02/skos/core#notation> "RefFreq" .
 # 
 # http://purl.org/twc/ssrf/terms/Station
 <http://purl.org/twc/ssrf/terms/Station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/twc/ssrf/terms/Station> <http://www.w3.org/2000/01/rdf-schema#label> "Station" .
 # 
 # http://purl.org/twc/ssrf/terms/TR
 <http://purl.org/twc/ssrf/terms/TR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/TR> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "SME" .
+<http://purl.org/twc/ssrf/terms/TR> <http://www.w3.org/2000/01/rdf-schema#label> "TransmitterReceiver" .
+<http://purl.org/twc/ssrf/terms/TR> <http://www.w3.org/2004/02/skos/core#notation> "TR" .
 # 
 # http://purl.org/twc/ssrf/terms/Transmitter
 <http://purl.org/twc/ssrf/terms/Transmitter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/twc/ssrf/terms/Transmitter> <http://www.w3.org/2000/01/rdf-schema#label> "Transmitter" .
+<http://purl.org/twc/ssrf/terms/Transmitter> <http://www.w3.org/2004/02/skos/core#notation> "Tx" .
 # 
 # http://purl.org/twc/ssrf/terms/Usage
 <http://purl.org/twc/ssrf/terms/Usage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/twc/ssrf/terms/Usage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" .
+<http://purl.org/twc/ssrf/terms/Usage> <http://www.w3.org/2000/01/rdf-schema#label> "Usage" .
+<http://purl.org/twc/ssrf/terms/Usage> <http://www.w3.org/2004/02/skos/core#notation> "FreqUse" .
 # 
 # http://semanticscience.org/resource/Affiliation
 <http://semanticscience.org/resource/Affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/Affiliation> <http://www.w3.org/2000/01/rdf-schema#label> "Affiliation" .
 # 
 # http://semanticscience.org/resource/Altitude
 # 
@@ -1014,6 +1035,7 @@ _:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/p
 # http://semanticscience.org/resource/Country
 <http://semanticscience.org/resource/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://semanticscience.org/resource/Country> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://semanticscience.org/resource/SIO_000664" .
+<http://semanticscience.org/resource/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
 # 
 # http://semanticscience.org/resource/GeographicRegion
 # 
@@ -1024,10 +1046,12 @@ _:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/p
 # http://semanticscience.org/resource/Latitude
 <http://semanticscience.org/resource/Latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://semanticscience.org/resource/Latitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://semanticscience.org/resource/SIO_000319" .
+<http://semanticscience.org/resource/Latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude" .
 # 
 # http://semanticscience.org/resource/Longitude
 <http://semanticscience.org/resource/Longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://semanticscience.org/resource/Longitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://semanticscience.org/resource/SIO_000318" .
+<http://semanticscience.org/resource/Longitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude " .
 # 
 # http://semanticscience.org/resource/MaximalValue
 # 
@@ -1036,17 +1060,27 @@ _:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/p
 # http://semanticscience.org/resource/RadioReceiver
 <http://semanticscience.org/resource/RadioReceiver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://semanticscience.org/resource/RadioReceiver> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://semanticscience.org/resource/SIO_000926" .
+<http://semanticscience.org/resource/RadioReceiver> <http://www.w3.org/2000/01/rdf-schema#label> "Radio Receiver" .
+<http://semanticscience.org/resource/RadioReceiver> <http://www.w3.org/2004/02/skos/core#notation> "Rx" .
+# 
+# http://www.w3.org/2002/07/owl#DataProperty
+<http://www.w3.org/2002/07/owl#DataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/ns/prov#Activity
 <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activity" .
 # 
 # http://www.w3.org/ns/prov#Agent
 <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#Agent" .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent" .
 # 
 # http://www.w3.org/ns/prov#Location
 <http://www.w3.org/ns/prov#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/ns/prov#Location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#Location\n\n" .
+<http://www.w3.org/ns/prov#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
+<http://www.w3.org/ns/prov#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location " .
+<http://www.w3.org/ns/prov#Location> <http://www.w3.org/2004/02/skos/core#notation> "LO" .
 # 
 # http://www.w3.org/ns/prov#Organization
 # 
@@ -1054,5 +1088,19 @@ _:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/p
 # 
 # xacml:Attribute
 <xacml:Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<xacml:Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Tertiary Priority" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/twc/dsa/ns/FlagForReview
+<http://purl.org/twc/dsa/ns/FlagForReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/twc/dsa/ns/FlagForReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DataProperty> .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

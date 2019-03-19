@@ -37,7 +37,8 @@
 #################################################################
 
 ###  http://semanticscience.org/resource/hasAttribute
-<http://semanticscience.org/resource/hasAttribute> rdf:type owl:ObjectProperty .
+<http://semanticscience.org/resource/hasAttribute> rdf:type owl:ObjectProperty ;
+                                                   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000008> .
 
 
 ###  http://semanticscience.org/resource/isPartOf
@@ -54,7 +55,9 @@
 
 ###  file:///Users/liuyue0027/Desktop/setlr/UO:0000325
 <file:///Users/liuyue0027/Desktop/setlr/UO:0000325> rdf:type owl:Class ;
-                                                    rdfs:isDefinedBy "http://purl.obolibrary.org/obo/UO_0000325" .
+                                                    rdfs:isDefinedBy "http://purl.obolibrary.org/obo/UO_0000325" ;
+                                                    rdfs:label "megahertz" ;
+                                                    <http://www.w3.org/2004/02/skos/core#notation> "MHz" .
 
 
 ###  http://purl.org/twc/dsa/ns/ACTS
@@ -1085,58 +1088,76 @@ radiocommunication signals. (RR)""" .
 
 ###  http://purl.org/twc/ssrf/terms/Installation
 <http://purl.org/twc/ssrf/terms/Installation> rdf:type owl:Class ;
-                                              rdfs:isDefinedBy "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" .
+                                              rdfs:isDefinedBy "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" ;
+                                              rdfs:label "Installation" .
 
 
 ###  http://purl.org/twc/ssrf/terms/JFRL
 <http://purl.org/twc/ssrf/terms/JFRL> rdf:type owl:Class ;
-                                      rdfs:isDefinedBy "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" .
+                                      rdfs:isDefinedBy "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" ;
+                                      rdfs:label "Joint Restricted Frequency List" ;
+                                      <http://www.w3.org/2004/02/skos/core#notation> "JFRL" .
 
 
 ###  http://purl.org/twc/ssrf/terms/Organization
-<http://purl.org/twc/ssrf/terms/Organization> rdf:type owl:Class .
+<http://purl.org/twc/ssrf/terms/Organization> rdf:type owl:Class ;
+                                              rdfs:label "Organization" .
 
 
 ###  http://purl.org/twc/ssrf/terms/Polygon
 <http://purl.org/twc/ssrf/terms/Polygon> rdf:type owl:Class ;
-                                         rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Polygon" .
+                                         rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Polygon" ;
+                                         rdfs:label "Polygon" .
 
 
 ###  http://purl.org/twc/ssrf/terms/PolygonPoint
 <http://purl.org/twc/ssrf/terms/PolygonPoint> rdf:type owl:Class ;
-                                              rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Polygon" .
+                                              rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Polygon" ;
+                                              rdfs:label "PolygonPoint" .
 
 
 ###  http://purl.org/twc/ssrf/terms/Receiver
 <http://purl.org/twc/ssrf/terms/Receiver> rdf:type owl:Class ;
-                                          rdfs:isDefinedBy "https://www.techopedia.com/definition/9123/receiver-rx" .
+                                          rdfs:isDefinedBy "https://www.techopedia.com/definition/9123/receiver-rx" ;
+                                          rdfs:label "Receiver" ;
+                                          <http://www.w3.org/2004/02/skos/core#notation> "Rx" .
 
 
 ###  http://purl.org/twc/ssrf/terms/RefFreq
 <http://purl.org/twc/ssrf/terms/RefFreq> rdf:type owl:Class ;
-                                         rdfs:isDefinedBy "NTIA Sept 2015" .
+                                         rdfs:isDefinedBy "NTIA Sept 2015" ;
+                                         rdfs:label "Reference Fequency" ;
+                                         <http://www.w3.org/2004/02/skos/core#notation> "RefFreq" .
 
 
 ###  http://purl.org/twc/ssrf/terms/Station
-<http://purl.org/twc/ssrf/terms/Station> rdf:type owl:Class .
+<http://purl.org/twc/ssrf/terms/Station> rdf:type owl:Class ;
+                                         rdfs:label "Station" .
 
 
 ###  http://purl.org/twc/ssrf/terms/TR
 <http://purl.org/twc/ssrf/terms/TR> rdf:type owl:Class ;
-                                    rdfs:isDefinedBy "SME" .
+                                    rdfs:isDefinedBy "SME" ;
+                                    rdfs:label "TransmitterReceiver" ;
+                                    <http://www.w3.org/2004/02/skos/core#notation> "TR" .
 
 
 ###  http://purl.org/twc/ssrf/terms/Transmitter
-<http://purl.org/twc/ssrf/terms/Transmitter> rdf:type owl:Class .
+<http://purl.org/twc/ssrf/terms/Transmitter> rdf:type owl:Class ;
+                                             rdfs:label "Transmitter" ;
+                                             <http://www.w3.org/2004/02/skos/core#notation> "Tx" .
 
 
 ###  http://purl.org/twc/ssrf/terms/Usage
 <http://purl.org/twc/ssrf/terms/Usage> rdf:type owl:Class ;
-                                       rdfs:isDefinedBy "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" .
+                                       rdfs:isDefinedBy "https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D" ;
+                                       rdfs:label "Usage" ;
+                                       <http://www.w3.org/2004/02/skos/core#notation> "FreqUse" .
 
 
 ###  http://semanticscience.org/resource/Affiliation
-<http://semanticscience.org/resource/Affiliation> rdf:type owl:Class .
+<http://semanticscience.org/resource/Affiliation> rdf:type owl:Class ;
+                                                  rdfs:label "Affiliation" .
 
 
 ###  http://semanticscience.org/resource/Altitude
@@ -1149,7 +1170,8 @@ radiocommunication signals. (RR)""" .
 
 ###  http://semanticscience.org/resource/Country
 <http://semanticscience.org/resource/Country> rdf:type owl:Class ;
-                                              rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000664" .
+                                              rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000664" ;
+                                              rdfs:label "Country" .
 
 
 ###  http://semanticscience.org/resource/GeographicRegion
@@ -1166,12 +1188,14 @@ radiocommunication signals. (RR)""" .
 
 ###  http://semanticscience.org/resource/Latitude
 <http://semanticscience.org/resource/Latitude> rdf:type owl:Class ;
-                                               rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000319" .
+                                               rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000319" ;
+                                               rdfs:label "Latitude" .
 
 
 ###  http://semanticscience.org/resource/Longitude
 <http://semanticscience.org/resource/Longitude> rdf:type owl:Class ;
-                                                rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000318" .
+                                                rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000318" ;
+                                                rdfs:label "Longitude " .
 
 
 ###  http://semanticscience.org/resource/MaximalValue
@@ -1184,23 +1208,34 @@ radiocommunication signals. (RR)""" .
 
 ###  http://semanticscience.org/resource/RadioReceiver
 <http://semanticscience.org/resource/RadioReceiver> rdf:type owl:Class ;
-                                                    rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000926" .
+                                                    rdfs:isDefinedBy "http://semanticscience.org/resource/SIO_000926" ;
+                                                    rdfs:label "Radio Receiver" ;
+                                                    <http://www.w3.org/2004/02/skos/core#notation> "Rx" .
+
+
+###  http://www.w3.org/2002/07/owl#DataProperty
+owl:DataProperty rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/prov#Activity
-<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
+<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class ;
+                                     rdfs:label "Activity" .
 
 
 ###  http://www.w3.org/ns/prov#Agent
 <http://www.w3.org/ns/prov#Agent> rdf:type owl:Class ;
-                                  rdfs:isDefinedBy "http://www.w3.org/ns/prov#Agent" .
+                                  rdfs:isDefinedBy "http://www.w3.org/ns/prov#Agent" ;
+                                  rdfs:label "Agent" .
 
 
 ###  http://www.w3.org/ns/prov#Location
 <http://www.w3.org/ns/prov#Location> rdf:type owl:Class ;
                                      rdfs:isDefinedBy """http://www.w3.org/ns/prov#Location
 
-""" .
+""" ;
+                                     rdfs:label "Location" ,
+                                                "Location " ;
+                                     <http://www.w3.org/2004/02/skos/core#notation> "LO" .
 
 
 ###  http://www.w3.org/ns/prov#Organization
@@ -1212,7 +1247,17 @@ radiocommunication signals. (RR)""" .
 
 
 ###  xacml:Attribute
-<xacml:Attribute> rdf:type owl:Class .
+<xacml:Attribute> rdf:type owl:Class ;
+                  rdfs:label "Tertiary Priority" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.org/twc/dsa/ns/FlagForReview
+<http://purl.org/twc/dsa/ns/FlagForReview> rdf:type owl:NamedIndividual ,
+                                                    owl:DataProperty .
 
 
 ###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
