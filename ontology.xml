@@ -1,0 +1,1922 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:ns="http://purl.org/twc/dsa/ns/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/isReferencedBy -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FlagForReview -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/twc/dsa/ns/FlagForReview"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/attributeOf -->
+
+
+    <AnnotationProperty rdf:about="http://semanticscience.org/resource/attributeOf"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semanticscience.org/resource/hasAttribute -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/hasAttribute"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/isPartOf -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/isPartOf"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/isProperPartOf -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/isProperPartOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- file:///Users/liuyue0027/Desktop/setlr/UO:0000325 -->
+
+
+    <Class rdf:about="file:///Users/liuyue0027/Desktop/setlr/UO:0000325">
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UO_0000325</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ACTS -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ACTS">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/AirCombatSimulatorNode"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Air Combat Training System</rdfs:label>
+        <skos:notation>ACTS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AN_OR_PRC_117_Manpack_Radio_HA -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AN_OR_PRC_117_Manpack_Radio_HA">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/MUOS_Receiver_Downlink"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/MUOS_Transmitter_Uplink"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/SATCOM_Receiver"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/SATCOM_Transmitter"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CommunicationDevice"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/Manufacturer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>AN/PRC-117 Manpack Radio (HA)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AN_OR_PRC_154A_Rifleman_Radio_GD -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AN_OR_PRC_154A_Rifleman_Radio_GD">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CommunicationDevice"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/Manufacturer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>AN/PRC-154A Rifleman Radio (GD)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AN_OR_PRC_154A_Rifleman_Radio_TH -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AN_OR_PRC_154A_Rifleman_Radio_TH">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CommunicationDevice"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>AN/PRC-154A Rifleman Radio (TH)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AWS_Base_Station -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AWS_Base_Station">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/BaseStation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/AdvancedWirelessService"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Advanced Wireless Service Base Station</rdfs:label>
+        <skos:definition>no definition available</skos:definition>
+        <skos:notation>AWS Base Station</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Action -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Action">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Action</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ActiveSatellite -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ActiveSatellite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Active Satellite</rdfs:label>
+        <skos:definition>A satellite carrying a station intended to transmit or retransmit 
+radiocommunication signals. (RR)</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AdvancedWirelessService -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AdvancedWirelessService">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <rdfs:label>Advanced Wireless Service</rdfs:label>
+        <skos:definition>Advanced Wireless Service (AWS) is the collective term the FCC uses for innovative fixed and mobile terrestrial wireless services using bandwidth that is sufficient for the provision of a variety of applications, including those using voice and data (such as internet browsing, message services, and full-motion video) content. The services provided by AWS licensees are limited only by the Fixed and Mobile designation of the spectrum we allocate for AWS and the services rules we ultimately adopt for the bands. </skos:definition>
+        <skos:notation>AWS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AeronauticalEarthStation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AeronauticalEarthStation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/EarthStation"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Aeronautical Earth Station</rdfs:label>
+        <skos:definition>• with one or more stations of the same kind by means of one or more reflecting satellites or other objects in space</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Agreement -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Agreement"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AirCombatSimulatorNode -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AirCombatSimulatorNode"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/AirCombatTrainingSystemStation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/AirCombatTrainingSystemStation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/ACTS"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Air Combat Training System Station</rdfs:label>
+        <skos:notation>ACTS Station</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Allocation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Allocation">
+        <terms:isReferencedBy>SSRF</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Allocation</rdfs:label>
+        <skos:definition>Allocation contains the allocation of a specific frequency band to a specific radiocommunication service.</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Allotment -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Allotment">
+        <terms:isReferencedBy>SSRF</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Allotment</rdfs:label>
+        <skos:definition>Allotment is a group of frequencies given to a subordinate organisation for local management, for specific types of emissions, at a certain location, and for a specified period of time.</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Antenna -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Antenna">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Transducer"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Antenna</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ArmyNavy_OR_PortableRadioCommunications -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ArmyNavy_OR_PortableRadioCommunications">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Army-Navy/Portable Radio Communications</rdfs:label>
+        <skos:definition>The Harris AN/PRC-117G delivers breakthrough wideband data speed and legacy narrowband performance in a form factor 30% smaller and 35% lighter than any other currently in field. The manpack is also the industry’s first and only tactical radio with NINE Suite B encryption. This frees sovereign nations to securely interoperate with U.S., NATO and regional tactical partners and eliminates the time and cost of maintaining two separate radio systems.</skos:definition>
+        <skos:notation>AN/PRC-117G</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Assignment -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Assignment">
+        <terms:isReferencedBy>SSRF</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Assignment</rdfs:label>
+        <skos:definition>Assignment is the XML root for all parameters of a system of assignments</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/BW -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/BW"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/BaseStation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/BaseStation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Fixed_Installation"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/policy/Geographical_Entity"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/Antenna"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/BW"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/DutyCycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/PowerLimit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/ReferenceFequency"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/ns/prov#Location"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Base Station </rdfs:label>
+        <skos:definition>Base Station: A land station in the land mobile service. (RR) (NTIA Definition Sept 2015)</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Cable_TV_Relay_Service -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Cable_TV_Relay_Service">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Relay_Service"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Cable TV Relay Service</rdfs:label>
+        <skos:definition>Cable Television Relay Service (CARS) stations are point-to-point or point-to-multipoint microwave systems used by cable and other MVPD operators.  CARS stations cannot be used to distribute programming directly to subscribers.  Sec. 78.18 lists the frequency assignments for CARS……Relay services let callers use an assistant who transfers messages back and forth. If you don&apos;t have a TTY unit or TDD, you can use a telephone relay service to communicate by phone with someone who is deaf or hard of hearing. ... The person placing the call accesses TRS from any TTY or standard phone by calling 7-1-1. </skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Co_PrimaryPriority -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Co_PrimaryPriority">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/PriorityLevel"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="xacml:Subject"/>
+        <rdfs:label>Co-Primary Priority</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Communicating -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Communicating">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Operating"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Communicating</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/CommunicationService -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/CommunicationService">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <ns:FlagForReview>YES</ns:FlagForReview>
+        <rdfs:label>Communication Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/CompositeEntity -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/CompositeEntity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label>Composite Entity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Condition -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Condition">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="xacml:Environment"/>
+        <rdfs:label>Condition</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Coordinate -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Coordinate">
+        <rdfs:label>Coordinate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/DefensiveOperation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/DefensiveOperation"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/DutyCycle -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/DutyCycle"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/DynamicSpectrumAllocationPolicy -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/DynamicSpectrumAllocationPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Dynamic Spectrum Allocation Policy</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/EarthStation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/EarthStation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/ssrf/terms/Station"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/SatelliteSystem"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Earth Station</rdfs:label>
+        <skos:definition>Earth Station: A station located either on the Earth&apos;s surface or within the major portion of the Earth&apos;s atmosphere and intended for communication:</skos:definition>
+        <skos:definition>• with one or more space stations; or</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/EarthtoSpace -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/EarthtoSpace">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Earth to Space</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ElectromagneticInterference -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ElectromagneticInterference">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Interference"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Electromagnetic Interference</rdfs:label>
+        <skos:notation>EMI</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ElectronicWarfare -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ElectronicWarfare">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/MilitaryOperation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/DefensiveOperation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/OffensiveOperation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Electronic Warfare</rdfs:label>
+        <skos:definition>(joint) Military action involving the use of electromagnetic and directed energy to control the electromagnetic spectrum or to attack the enemy.</skos:definition>
+        <skos:notation>EW</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FederalAffiliation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FederalAffiliation">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>FederalAffiliation</rdfs:label>
+        <skos:definition>This is a type of affiliation.  If federal, the item belongs to or is controlled by a federal organization</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FederalAviationAdministration -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FederalAviationAdministration">
+        <rdfs:label>Federal Aviation Administration</rdfs:label>
+        <skos:notation>FAA</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Federal_Base_Station -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Federal_Base_Station">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/BaseStation"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Federal Base Station </rdfs:label>
+        <skos:definition>In the NTIA policies, this is a base station that has a federal affiliation.</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Fixed_AWS -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Fixed_AWS">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/AdvancedWirelessService"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Fixed_Installation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/ns/prov#Location"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Fixed AWS Service </rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Fixed_Installation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Fixed_Installation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/ssrf/terms/Installation"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="xacml:Subject"/>
+        <rdfs:label>Fixed Installation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FrequencyBand -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FrequencyBand">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRange"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Identifier"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Frequency Band </rdfs:label>
+        <skos:definition>A frequency band is an interval in the frequency domain, delimited by a lower frequency and an upper frequency. The term may refer to a radio band or an interval of some other spectrum. The frequency range of a system is the range over which it is considered to provide satisfactory performance, such as a useful level of signal with acceptable distortion characteristics. A listing of the upper and lower limits of frequency limits for a system is not useful without a criterion for what the range represents.</skos:definition>
+        <skos:notation>FreqBand</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FrequencyMaximum -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FrequencyMaximum">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/RadioFrequency"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/MaximalValue"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRange"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Frequency Maximum</rdfs:label>
+        <skos:definition>This is the maximum value for a frequency range</skos:definition>
+        <skos:notation>FreqMax</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FrequencyMinimum -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FrequencyMinimum">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/RadioFrequency"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/MinimalValue"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRange"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Frequency Minimum</rdfs:label>
+        <skos:definition>This is the minimum value for a frequency range</skos:definition>
+        <skos:notation>FreqMin</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FrequencyRange -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FrequencyRange">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/Interval"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="file:///Users/liuyue0027/Desktop/setlr/Frequencies"/>
+        <resource:attributeOf rdf:resource="file:///Users/liuyue0027/Desktop/setlr/Set"/>
+        <resource:attributeOf rdf:resource="file:///Users/liuyue0027/Desktop/setlr/of"/>
+        <rdfs:label>Frequency Range</rdfs:label>
+        <skos:definition>(1) A group of frequencies in the electromagnetic spectrum that are assigned by regulatory agencies for a particular purpose. Also called a &quot;frequency band. (2) A group of frequencies that occur naturally such as the audio spectrum.</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Frequency Range Operation Mode</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/FrequencyUsagePriority -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/FrequencyUsagePriority">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="xacml:Subject"/>
+        <rdfs:label>Frequency Usage Priority</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Frequency_Requestor -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Frequency_Requestor">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Requestor"/>
+        <rdfs:label>Frequency Requestor</rdfs:label>
+        <skos:definition>In the policies, this is some system making a request for spectrum frequency</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/GeneralDynamics -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/GeneralDynamics">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Manufacturer"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>General Dynamics</rdfs:label>
+        <skos:definition>General Dynamics is a global aerospace and defense company. </skos:definition>
+        <skos:notation>GD</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/GeographicalZone -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/GeographicalZone">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/GeographicRegion"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>GeographicalZone </rdfs:label>
+        <skos:definition>The five main latitude regions of the Earth&apos;s surface comprise geographical zones, divided by the major circles of latitude. The differences between them relate to climate.</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/GeographicalZoneCircle -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/GeographicalZoneCircle">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>GeographicalZoneCircle</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/GeographicalZonePolygon -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/GeographicalZonePolygon">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>GeographicalZonePolygon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Goal -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Goal">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Goal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Harris -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Harris">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Manufacturer"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Harris</rdfs:label>
+        <skos:notation>HA</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Interference -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Interference">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Interference</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/JointTacticalRadioSystem -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/JointTacticalRadioSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/RadioFrequencySystem"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isProperPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/FederalAffiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+        <rdfs:label>Joint Tactical Radio System</rdfs:label>
+        <skos:definition>The Joint Tactical Radio System (JTRS) aimed to replace existing radios in the American military with a single set of software-defined radios that could have new frequencies and modes (“waveforms”) added via upload, instead of requiring multiple radio types in ground vehicles, and using circuit board swaps in order to upgrade. JTRS has seen cost overruns and full program restructurings, along with cancellation of some parts of the program. </skos:definition>
+        <skos:notation>JTRS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/LFE -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/LFE">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>LFE</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Local_TV_Transmission_Service -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Local_TV_Transmission_Service">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/CommunicationService"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <rdfs:label>Local TV Transmission Service</rdfs:label>
+        <skos:definition>Local Television Transmission Service (LTTS) stations are available for communications common carriers to provide service to television broadcast stations, network entities, cable system operators and cable network entities. Fixed point-to-point, temporary fixed and mobile operations are permitted in LTTS.</skos:definition>
+        <skos:notation>LTTS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MUOS -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MUOS">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>MUOS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MUOS_Receiver_Downlink -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MUOS_Receiver_Downlink">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>MUOS Receiver Downlink</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MUOS_Transmitter_Uplink -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MUOS_Transmitter_Uplink">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>MUOS Transmitter Uplink</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Manufacturer -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Manufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Manufacturer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Memorandum_of_Understanding -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Memorandum_of_Understanding">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Agreement"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Memorandum of Understanding</rdfs:label>
+        <skos:definition>A memorandum of understanding (MOU) can be used to establish Interoperability between federal entities and non-federal public safety licensees.</skos:definition>
+        <skos:notation>MOU</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MilitaryAffiliation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MilitaryAffiliation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/FederalAffiliation"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Military Affiliation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MilitaryOperation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MilitaryOperation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Operation"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Military Operation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MobileInstallation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MobileInstallation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/ssrf/terms/Installation"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Mobile Installation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/MobileUserObjectiveSystem -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/MobileUserObjectiveSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Mobile User Objective System</rdfs:label>
+        <skos:notation>MUOS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Mobile_AWS_Service -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Mobile_AWS_Service">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/AdvancedWirelessService"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/AdvancedWirelessService"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Mobile AWS Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Mobile_Service -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Mobile_Service">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/WirelessService"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Mobile Service </rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Networking_Software -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Networking_Software"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/NonFederalAffiliation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/NonFederalAffiliation"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Non_Federal -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Non_Federal">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Non-Federal </rdfs:label>
+        <skos:definition>This is a type of affiliation.  If non-federal, the item belongs to or is controlled by a commercial or non-federal entity</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Non_FederalBaseStation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Non_FederalBaseStation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/BaseStation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isProperPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/NonFederalAffiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Non-Federal Base Station </rdfs:label>
+        <skos:definition>In the NTIA policies, this is a base station that has a non-federal affiliation, e.g., commercial</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/OffensiveOperation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/OffensiveOperation"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Operating -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Operating"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/OperatingLocation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/OperatingLocation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/ns/prov#Location"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Operating Location</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Operation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Operation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Action"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Operation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Point -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Point">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Altitude"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Latitude"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Longitude"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="http://purl.org/twc/dsa/ns/FixedInstallation"/>
+        <rdfs:label>Point</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Policy -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Policy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Policy</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/PowerLimit -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/PowerLimit"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Primary -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Primary">
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Primary</rdfs:label>
+        <skos:definition>&quot;In the NTIA policies, a spectrum requester may have a primary or secondary status.   Primary indicates that the requester can operate without interference. Secondary indicates that the requester is permitted to operate on a non-interference basis only.
+
+&quot;</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/PrimaryPriority -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/PrimaryPriority">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/PriorityLevel"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Primary Priority</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/PriorityLevel -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/PriorityLevel"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/RadioFrequency -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/RadioFrequency">
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Radio Frequency</rdfs:label>
+        <skos:definition>Radio frequency (RF) refers to the rate of oscillation of electromagnetic radio waves in the range of 3 kHz to 300 GHz, as well as the alternating currents carrying the radio signals. This is the frequency band that is used for communications transmission and broadcasting.</skos:definition>
+        <skos:notation>RF</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/RadioFrequencySystem -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/RadioFrequencySystem">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/CompositeEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Radio Frequency System</rdfs:label>
+        <skos:definition>Complex element RFSystem describes the association of one or several Transmitters, Receivers and Antennas as they are assembled to form a system on a platform; it can also include the specific modes which are allowed or technically possible in this assembly.</skos:definition>
+        <skos:notation>ssrf:RFSystem</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/RadioTransmitter -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/RadioTransmitter">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CommunicationDevice"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <terms:isReferencedBy>US-91</terms:isReferencedBy>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Radio Transmitter </rdfs:label>
+        <skos:definition>In electronics and telecommunications, a transmitter or radio transmitter is an electronic device which produces radio waves with an antenna. The transmitter itself generates a radio frequency alternating current, which is applied to the antenna. When excited by this alternating current, the antenna radiates radio waves. </skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Receiver -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Receiver"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ReceivingAntenna -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ReceivingAntenna">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Antenna"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Receiving Antenna</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ReferenceFequency -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ReferenceFequency"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Relay_Service -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Relay_Service"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Requestor -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Requestor">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Requestor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/ResearchDevelopmentTestandEvaluation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/ResearchDevelopmentTestandEvaluation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/ns/prov#Location"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Research Development Test and Evaluation </rdfs:label>
+        <skos:notation>RDTE</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/RuleID -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/RuleID">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/Identifier"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <resource:attributeOf rdf:resource="http://purl.org/twc/dsa/ns/Policy"/>
+        <rdfs:label>Rule ID</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SATCOM -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SATCOM">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>SATCOM</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SATCOM_Receiver -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SATCOM_Receiver">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Receiver"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>SATCOM Receiver</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SATCOM_Transmitter -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SATCOM_Transmitter">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Transmitter"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>SATCOM Transmitter</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Satellite -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Satellite">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Satellite</rdfs:label>
+        <skos:definition>A body which revolves around another body of preponderant mass and which has a motion primarily and permanently determined by the force of attraction of that other body. (RR)</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SatelliteOperation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SatelliteOperation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Operation"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/SpaceOperation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Satellite Operation</rdfs:label>
+        <skos:notation>SATOPS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SatelliteSystem -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SatelliteSystem"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SecondaryPriority -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SecondaryPriority">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/PriorityLevel"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Secondary Priority</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Signal -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Signal">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Signal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SignalDirection -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SignalDirection">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Signal Direction</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SignalModulation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SignalModulation">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Signal Modulation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SignalPower -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SignalPower">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Signal Power</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Site -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Site">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Site</rdfs:label>
+        <skos:definition>This is a geographical type with geo/loc and other information where activities can occur and where spectrum can be restricted</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SoldierRadioWaveform -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SoldierRadioWaveform">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Networking_Software"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Soldier Radio Waveform</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SpaceOperation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SpaceOperation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Operation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/Affiliation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Space Operation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/SubBand -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/SubBand">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/FrequencyBand"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Sub Band </rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/System -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/System">
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/TVBroadcastAuxilaryService -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/TVBroadcastAuxilaryService">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>TV Broadcast Auxilary Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Thales -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Thales">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Manufacturer"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Thales</rdfs:label>
+        <skos:notation>TH</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/TrainingArea -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/TrainingArea">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Training Area </rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/TrainingLocation -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/TrainingLocation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Training Location </rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Transducer -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Transducer"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Transmitter -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Transmitter"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/TransmitterReceiver -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/TransmitterReceiver"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/TransmittingAntenna -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/TransmittingAntenna">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/Antenna"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Transmitting Antenna</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/TroposphericScatterSystem -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/TroposphericScatterSystem">
+        <rdfs:label>Tropospheric Scatter System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/Waveform -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/Waveform">
+        <rdfs:subClassOf rdf:resource="xacml:Attribute"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Waveform</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/WirelessCommunicationsService -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/WirelessCommunicationsService">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/CommunicationService"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://purl.org/twc/dsa/ns/BaseStation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>Wireless Communications Service</rdfs:label>
+        <skos:notation>WCS</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/WirelessService -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/WirelessService"/>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/largeforceexerciseoperations -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/largeforceexerciseoperations">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/hasAttribute"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/ns/prov#Location"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>large force exercise operations</rdfs:label>
+        <skos:notation>LFE</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/narrowband -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/narrowband">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>narrow band</rdfs:label>
+        <skos:notation>NB</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/satellitecommunication -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/satellitecommunication">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>satellite communication</rdfs:label>
+        <skos:notation>SATCOM</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/ns/wideband -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/ns/wideband">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode"/>
+        <ns:FlagForReview>Yes</ns:FlagForReview>
+        <rdfs:label>wide band</rdfs:label>
+        <skos:notation>WB</skos:notation>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/dsa/policy/Geographical_Entity -->
+
+
+    <Class rdf:about="http://purl.org/twc/dsa/policy/Geographical_Entity"/>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Installation -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Installation">
+        <rdfs:isDefinedBy>https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/JFRL -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/JFRL">
+        <rdfs:isDefinedBy>https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Organization -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Organization"/>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Polygon -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Polygon">
+        <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Polygon</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/PolygonPoint -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/PolygonPoint">
+        <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Polygon</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Receiver -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Receiver">
+        <rdfs:isDefinedBy>https://www.techopedia.com/definition/9123/receiver-rx</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/RefFreq -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/RefFreq">
+        <rdfs:isDefinedBy>NTIA Sept 2015</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Station -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Station"/>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/TR -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/TR">
+        <rdfs:isDefinedBy>SME</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Transmitter -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Transmitter"/>
+    
+
+
+    <!-- http://purl.org/twc/ssrf/terms/Usage -->
+
+
+    <Class rdf:about="http://purl.org/twc/ssrf/terms/Usage">
+        <rdfs:isDefinedBy>https://raw.githubusercontent.com/tetherless-world/DynamicSpectrumAccess/master/ontologies/ssrf.ttl?token=ADFq_sMWDqy0vCTZS1pqpXFtBbEEsw4zks5cmUg2wA%3D%3D</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/Affiliation -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Affiliation"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/Altitude -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Altitude"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CommunicationDevice -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CommunicationDevice"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/Country -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Country">
+        <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000664</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/GeographicRegion -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/GeographicRegion"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/Identifier -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Identifier"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/Interval -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Interval"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/Latitude -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Latitude">
+        <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000319</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/Longitude -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/Longitude">
+        <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000318</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/MaximalValue -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/MaximalValue"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/MinimalValue -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/MinimalValue"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/RadioReceiver -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/RadioReceiver">
+        <rdfs:isDefinedBy>http://semanticscience.org/resource/SIO_000926</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Activity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:isDefinedBy>http://www.w3.org/ns/prov#Agent</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Location -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Location">
+        <rdfs:isDefinedBy>http://www.w3.org/ns/prov#Location
+
+</rdfs:isDefinedBy>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Organization -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Organization"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Plan -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Plan"/>
+    
+
+
+    <!-- xacml:Attribute -->
+
+
+    <Class rdf:about="xacml:Attribute"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
