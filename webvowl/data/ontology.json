@@ -1,0 +1,1464 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://purl.org/twc/ssrf/terms", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://purl.org/twc/dsa/ns", "http://www.w3.org/2001/XMLSchema", "http://semanticscience.org/resource" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 154,
+    "objectPropertyCount" : 3,
+    "datatypePropertyCount" : 0,
+    "individualCount" : 1
+  },
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/ns/prov#Activity",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity",
+      "undefined" : "Activity"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/DefensiveOperation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DefensiveOperation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/SignalPower",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SignalPower",
+      "undefined" : "Signal Power"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/CommunicationService",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "YES",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CommunicationService",
+      "undefined" : "Communication Service"
+    },
+    "subClasses" : [ "8" ],
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/MUOS_Transmitter_Uplink",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MUOS_Transmitter_Uplink",
+      "undefined" : "MUOS Transmitter Uplink"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/SatelliteOperation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "SATOPS",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SatelliteOperation",
+      "undefined" : "Satellite Operation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "12", "13" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/MilitaryOperation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MilitaryOperation",
+      "undefined" : "Military Operation"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/TransmitterReceiver",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransmitterReceiver"
+    },
+    "subClasses" : [ "17", "18", "2" ],
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/MobileUserObjectiveSystem",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "MUOS",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MobileUserObjectiveSystem",
+      "undefined" : "Mobile User Objective System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/ACTS",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "ACTS",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ACTS",
+      "undefined" : "Air Combat Training System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/wideband",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "WB",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wideband",
+      "undefined" : "wide band"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/BaseStation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Base Station: A land station in the land mobile service. (RR) (NTIA Definition Sept 2015)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BaseStation",
+      "undefined" : "Base Station "
+    },
+    "subClasses" : [ "1", "32" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Agreement",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agreement"
+    },
+    "subClasses" : [ "36" ],
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/EarthStation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Earth Station: A station located either on the Earth's surface or within the major portion of the Earth's atmosphere and intended for communication:",
+        "type" : "label"
+      }, {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "• with one or more space stations; or",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "EarthStation",
+      "undefined" : "Earth Station"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/SATCOM_Receiver",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SATCOM_Receiver",
+      "undefined" : "SATCOM Receiver"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/NonFederalAffiliation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonFederalAffiliation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/AN_OR_PRC_117_Manpack_Radio_HA",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AN_OR_PRC_117_Manpack_Radio_HA",
+      "undefined" : "AN/PRC-117 Manpack Radio (HA)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "9", "39", "41" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/SpaceOperation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SpaceOperation",
+      "undefined" : "Space Operation"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/ElectronicWarfare",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "EW",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "(joint) Military action involving the use of electromagnetic and directed energy to control the electromagnetic spectrum or to attack the enemy.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ElectronicWarfare",
+      "undefined" : "Electronic Warfare"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/AWS_Base_Station",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "AWS Base Station",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "no definition available",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AWS_Base_Station",
+      "undefined" : "Advanced Wireless Service Base Station"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/FrequencyMinimum",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "FreqMin",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "This is the minimum value for a frequency range",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FrequencyMinimum",
+      "undefined" : "Frequency Minimum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "44", "45" ]
+  }, {
+    "iri" : "http://semanticscience.org/resource/MinimalValue",
+    "baseIri" : "http://semanticscience.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MinimalValue"
+    },
+    "subClasses" : [ "43" ],
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://semanticscience.org/resource/Affiliation",
+    "baseIri" : "http://semanticscience.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affiliation",
+      "undefined" : "Affiliation"
+    },
+    "subClasses" : [ "47" ],
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Transmitter",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transmitter"
+    },
+    "subClasses" : [ "41" ],
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/FrequencyMaximum",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "FreqMax",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "This is the maximum value for a frequency range",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FrequencyMaximum",
+      "undefined" : "Frequency Maximum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/GeneralDynamics",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "GD",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "General Dynamics is a global aerospace and defense company. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GeneralDynamics",
+      "undefined" : "General Dynamics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Policy",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Policy",
+      "undefined" : "Policy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/FrequencyRangeOperationMode",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FrequencyRangeOperationMode",
+      "undefined" : "Frequency Range Operation Mode"
+    },
+    "subClasses" : [ "19", "31" ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/JointTacticalRadioSystem",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "attributeOf" : [ {
+        "identifier" : "attributeOf",
+        "language" : "undefined",
+        "value" : "http://purl.org/twc/dsa/ns/TransmitterReceiver",
+        "type" : "iri"
+      } ],
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "JTRS",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "The Joint Tactical Radio System (JTRS) aimed to replace existing radios in the American military with a single set of software-defined radios that could have new frequencies and modes (“waveforms”) added via upload, instead of requiring multiple radio types in ground vehicles, and using circuit board swaps in order to upgrade. JTRS has seen cost overruns and full program restructurings, along with cancellation of some parts of the program. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "JointTacticalRadioSystem",
+      "undefined" : "Joint Tactical Radio System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/largeforceexerciseoperations",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "LFE",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "largeforceexerciseoperations",
+      "undefined" : "large force exercise operations"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://purl.org/twc/ssrf/terms/Station",
+    "baseIri" : "http://purl.org/twc/ssrf/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Station",
+      "undefined" : "Station"
+    },
+    "subClasses" : [ "37" ],
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/WirelessCommunicationsService",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "WCS",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WirelessCommunicationsService",
+      "undefined" : "Wireless Communications Service"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Operation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Operation",
+      "undefined" : "Operation"
+    },
+    "subClasses" : [ "12", "11", "14" ],
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/RadioFrequency",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "RF",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Radio frequency (RF) refers to the rate of oscillation of electromagnetic radio waves in the range of 3 kHz to 300 GHz, as well as the alternating currents carrying the radio signals. This is the frequency band that is used for communications transmission and broadcasting.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RadioFrequency",
+      "undefined" : "Radio Frequency"
+    },
+    "subClasses" : [ "43", "50" ],
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/SATCOM_Transmitter",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SATCOM_Transmitter",
+      "undefined" : "SATCOM Transmitter"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/TVBroadcastAuxilaryService",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TVBroadcastAuxilaryService",
+      "undefined" : "TV Broadcast Auxilary Service"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Non_FederalBaseStation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "In the NTIA policies, this is a base station that has a non-federal affiliation, e.g., commercial",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Non_FederalBaseStation",
+      "undefined" : "Non-Federal Base Station "
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Manufacturer",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "undefined" : "Manufacturer"
+    },
+    "subClasses" : [ "57" ],
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/Memorandum_of_Understanding",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "MOU",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A memorandum of understanding (MOU) can be used to establish Interoperability between federal entities and non-federal public safety licensees.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Memorandum_of_Understanding",
+      "undefined" : "Memorandum of Understanding"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://purl.org/twc/dsa/ns/FederalAffiliation",
+    "baseIri" : "http://purl.org/twc/dsa/ns",
+    "instances" : 0,
+    "annotations" : {
+      "isReferencedBy" : [ {
+        "identifier" : "isReferencedBy",
+        "language" : "undefined",
+        "value" : "US-91",
+        "type" : "label"
+      } ],
+      "FlagForReview" : [ {
+        "identifier" : "FlagForReview",
+        "language" : "undefined",
+        "value" : "Yes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "This is a type of affiliation.  If federal, the item belongs to or is controlled by a federal organization",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FederalAffiliation",
+      "undefined" : "FederalAffiliation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Plan",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plan"
+    },
+    "subClasses" : [ "59" ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "29",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "46",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "51",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "53",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "55",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "69",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "70",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "71",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "16",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "9",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "7",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "16",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "14",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "2",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "29"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://semanticscience.org/resource/isProperPartOf",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "isProperPartOf"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://semanticscience.org/resource/isProperPartOf",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "isProperPartOf"
+    },
+    "domain" : "17",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://semanticscience.org/resource/isPartOf",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isPartOf"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "17",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "37",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "21",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://semanticscience.org/resource/hasAttribute",
+    "baseIri" : "http://semanticscience.org/resource",
+    "range" : "58",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_000008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "domain" : "10",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "71"
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "41",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "13",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "13",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "44",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "44",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "38",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "20",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "30",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "45",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "52",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "35",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "39",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  } ]
+}
